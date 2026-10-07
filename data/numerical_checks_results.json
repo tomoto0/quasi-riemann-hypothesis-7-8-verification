@@ -1,0 +1,604 @@
+{
+ "checks": [
+  {
+   "id": "G1",
+   "tex_line": 6861,
+   "claim": "l_x = 1+ell-h = 17/48",
+   "lhs": "17/48",
+   "rel": "==",
+   "rhs": "17/48",
+   "passed": true
+  },
+  {
+   "id": "G2",
+   "tex_line": 6862,
+   "claim": "l_y = l_x+b = 23/48",
+   "lhs": "23/48",
+   "rel": "==",
+   "rhs": "23/48",
+   "passed": true
+  },
+  {
+   "id": "G3",
+   "tex_line": 6864,
+   "claim": "M = l_x+l_y = 5/6",
+   "lhs": "5/6",
+   "rel": "==",
+   "rhs": "5/6",
+   "passed": true
+  },
+  {
+   "id": "G4",
+   "tex_line": 6864,
+   "claim": "M+ell = 1",
+   "lhs": "1",
+   "rel": "==",
+   "rhs": "1",
+   "passed": true
+  },
+  {
+   "id": "B1",
+   "tex_line": 8641,
+   "claim": "C_II(s) = l_x/2+s-1+h/6 = s-11/16",
+   "lhs": "-11/16",
+   "rel": "==",
+   "rhs": "-11/16",
+   "passed": true
+  },
+  {
+   "id": "B2",
+   "tex_line": 8642,
+   "claim": "C_II(7/8) = 3/16 = l_x/2+b/12",
+   "lhs": "3/16",
+   "rel": "==",
+   "rhs": "3/16",
+   "passed": true
+  },
+  {
+   "id": "B3",
+   "tex_line": 8794,
+   "claim": "17/96 - 1 + 13/96 = -11/16",
+   "lhs": "-11/16",
+   "rel": "==",
+   "rhs": "-11/16",
+   "passed": true
+  },
+  {
+   "id": "B4",
+   "tex_line": 8641,
+   "claim": "Part II boundary 1-h/6+b/12 = 7/8",
+   "lhs": "7/8",
+   "rel": "==",
+   "rhs": "7/8",
+   "passed": true
+  },
+  {
+   "id": "B5",
+   "tex_line": 509,
+   "claim": "Part I boundary (h=1/2,b=0) = 11/12",
+   "lhs": "11/12",
+   "rel": "==",
+   "rhs": "11/12",
+   "passed": true
+  },
+  {
+   "id": "B6",
+   "tex_line": 509,
+   "claim": "Part I C_I(s) = 1/4+s-1+h/6 = s-2/3",
+   "lhs": "-2/3",
+   "rel": "==",
+   "rhs": "-2/3",
+   "passed": true
+  },
+  {
+   "id": "B7",
+   "tex_line": 509,
+   "claim": "Part I C_I(11/12) = 1/4",
+   "lhs": "1/4",
+   "rel": "==",
+   "rhs": "1/4",
+   "passed": true
+  },
+  {
+   "id": "P1",
+   "tex_line": 6817,
+   "claim": "Delta <= 11/12 - 7/8 = 1/24",
+   "lhs": "1/24",
+   "rel": "==",
+   "rhs": "1/24",
+   "passed": true
+  },
+  {
+   "id": "P2",
+   "tex_line": 6819,
+   "claim": "kappa = 2*beta*-1 <= 5/6 at beta*=11/12",
+   "lhs": "5/6",
+   "rel": "==",
+   "rhs": "5/6",
+   "passed": true
+  },
+  {
+   "id": "P3",
+   "tex_line": 6819,
+   "claim": "kappa = 3/4 + 2 Delta (identity)",
+   "lhs": "0",
+   "rel": "==",
+   "rhs": "0",
+   "passed": true
+  },
+  {
+   "id": "M1",
+   "tex_line": 15674,
+   "claim": "m_w = l_y/20 = 23/960",
+   "lhs": "23/960",
+   "rel": "==",
+   "rhs": "23/960",
+   "passed": true
+  },
+  {
+   "id": "M2",
+   "tex_line": 15675,
+   "claim": "m_z = h/600 = 13/9600",
+   "lhs": "13/9600",
+   "rel": "==",
+   "rhs": "13/9600",
+   "passed": true
+  },
+  {
+   "id": "E1",
+   "tex_line": 15728,
+   "claim": "two lines of E(d) agree with a=(1+delta)/2",
+   "lhs": "0",
+   "rel": "==",
+   "rhs": "0",
+   "passed": true
+  },
+  {
+   "id": "E2",
+   "tex_line": 15831,
+   "claim": "-(1-a)ell-(delta/2-q)ell = -ell/2+q ell (a=(1+delta)/2)",
+   "lhs": "0",
+   "rel": "==",
+   "rhs": "0",
+   "passed": true
+  },
+  {
+   "id": "E3",
+   "tex_line": 6092,
+   "claim": "E_{7/8}(d;R,g=q ell) equals first line of E(d) (a=(1+delta)/2)",
+   "lhs": "0",
+   "rel": "==",
+   "rhs": "0",
+   "passed": true
+  },
+  {
+   "id": "F1",
+   "tex_line": 15847,
+   "claim": "E(h) at floor <= C0 + 3/4 delta0",
+   "lhs": "-7/1200",
+   "rel": "==",
+   "rhs": "-7/1200",
+   "passed": true
+  },
+  {
+   "id": "F2",
+   "tex_line": 15847,
+   "claim": "C0 + 3/4 delta0 = -7/1200",
+   "lhs": "-7/1200",
+   "rel": "==",
+   "rhs": "-7/1200",
+   "passed": true
+  },
+  {
+   "id": "F3",
+   "tex_line": 15849,
+   "claim": "floor frequency slope R+delta0/2-17/50 > 0",
+   "lhs": "67/100",
+   "rel": ">",
+   "rhs": "0",
+   "passed": true
+  },
+  {
+   "id": "S1",
+   "tex_line": 15877,
+   "claim": "h(17/50-1/6) - l_y/2 = -79/800",
+   "lhs": "-79/800",
+   "rel": "==",
+   "rhs": "-79/800",
+   "passed": true
+  },
+  {
+   "id": "S2",
+   "tex_line": 15885,
+   "claim": "-79/800 + 2 d_min = -63/800 (d_min=1/100)",
+   "lhs": "-63/800",
+   "rel": "==",
+   "rhs": "-63/800",
+   "passed": true
+  },
+  {
+   "id": "S3",
+   "tex_line": 15881,
+   "claim": "row exponent 63/50 < 2",
+   "lhs": "63/50",
+   "rel": "<",
+   "rhs": "2",
+   "passed": true
+  },
+  {
+   "id": "S4",
+   "tex_line": 15900,
+   "claim": "B0 = l_x/2+1+l_y = 53/32",
+   "lhs": "53/32",
+   "rel": "==",
+   "rhs": "53/32",
+   "passed": true
+  },
+  {
+   "id": "L1",
+   "tex_line": 15944,
+   "claim": "E(h) with R=1-delta,q=delta/2 equals C0+(3/4-h)delta",
+   "lhs": "0",
+   "rel": "==",
+   "rhs": "0",
+   "passed": true
+  },
+  {
+   "id": "L2",
+   "tex_line": 15945,
+   "claim": "(3/4-h) = -1/16",
+   "lhs": "-1/16",
+   "rel": "==",
+   "rhs": "-1/16",
+   "passed": true
+  },
+  {
+   "id": "C1",
+   "tex_line": 15972,
+   "claim": "D_x - P_x = 1 + x - 8x^2/9",
+   "lhs": "-8*x**2/9 + x + 1",
+   "rel": "==",
+   "rhs": "-8*x**2/9 + x + 1",
+   "passed": true
+  },
+  {
+   "id": "C2",
+   "tex_line": 15984,
+   "claim": "R_short(t) = L(t) at the balancing t",
+   "lhs": "0",
+   "rel": "==",
+   "rhs": "0",
+   "passed": true
+  },
+  {
+   "id": "C3",
+   "tex_line": 16019,
+   "claim": "R_* = 1-delta+(alpha-delta) delta P_x/(2J)",
+   "lhs": "0",
+   "rel": "==",
+   "rhs": "0",
+   "passed": true
+  },
+  {
+   "id": "C4",
+   "tex_line": 16022,
+   "claim": "-E_* closed form (y=1/2-x)",
+   "lhs": "0",
+   "rel": "==",
+   "rhs": "0",
+   "passed": true
+  },
+  {
+   "id": "C5",
+   "tex_line": 16015,
+   "claim": "D_x=(37+34y)/18",
+   "lhs": "0",
+   "rel": "==",
+   "rhs": "0",
+   "passed": true
+  },
+  {
+   "id": "C6",
+   "tex_line": 16016,
+   "claim": "P_x=p_y/9",
+   "lhs": "0",
+   "rel": "==",
+   "rhs": "0",
+   "passed": true
+  },
+  {
+   "id": "C7",
+   "tex_line": 16017,
+   "claim": "J=j_y/108",
+   "lhs": "0",
+   "rel": "==",
+   "rhs": "0",
+   "passed": true
+  },
+  {
+   "id": "C8",
+   "tex_line": 16030,
+   "claim": "2 j_y[1+(3+8y)d] - 468(5/6-d) d p_y = explicit quadratic",
+   "lhs": "0",
+   "rel": "==",
+   "rhs": "0",
+   "passed": true
+  },
+  {
+   "id": "C9",
+   "tex_line": 16030,
+   "claim": "10368 J (-E_*) equals that expression",
+   "lhs": "0",
+   "rel": "==",
+   "rhs": "0",
+   "passed": true
+  },
+  {
+   "id": "C10",
+   "tex_line": 16042,
+   "claim": "completed-square certificate identity  v*quad == cert",
+   "lhs": "0",
+   "rel": "==",
+   "rhs": "0",
+   "passed": true
+  },
+  {
+   "id": "C11",
+   "tex_line": 16066,
+   "claim": "v = 51+41y <= 17(3+5y) for y>=0 (difference = 44y)",
+   "lhs": "44*y",
+   "rel": "==",
+   "rhs": "44*y",
+   "passed": true
+  },
+  {
+   "id": "C12",
+   "tex_line": 16068,
+   "claim": "49/(10368*17*J) bound constant: 10368*17 = 176256",
+   "lhs": "176256",
+   "rel": "==",
+   "rhs": "176256",
+   "passed": true
+  },
+  {
+   "id": "C13",
+   "tex_line": 16069,
+   "claim": "49/(176256 * 5/2) = 49/440640",
+   "lhs": "49/440640",
+   "rel": "==",
+   "rhs": "49/440640",
+   "passed": true
+  },
+  {
+   "id": "C14",
+   "tex_line": 16069,
+   "claim": "49/440640 > 1/10000",
+   "lhs": "49/440640",
+   "rel": ">",
+   "rhs": "1/10000",
+   "passed": true
+  },
+  {
+   "id": "C15",
+   "tex_line": 15976,
+   "claim": "J range lower 35/54 at (delta=5/6,x=1/2)",
+   "lhs": "35/54",
+   "rel": "==",
+   "rhs": "35/54",
+   "passed": true
+  },
+  {
+   "id": "C16",
+   "tex_line": 15970,
+   "claim": "D_x at x=1/2 equals 37/18",
+   "lhs": "37/18",
+   "rel": "==",
+   "rhs": "37/18",
+   "passed": true
+  },
+  {
+   "id": "C17",
+   "tex_line": 15971,
+   "claim": "P_x at x=1/2 equals 7/9",
+   "lhs": "7/9",
+   "rel": "==",
+   "rhs": "7/9",
+   "passed": true
+  },
+  {
+   "id": "C18",
+   "tex_line": 16000,
+   "claim": "grid minimum of -E_* over 0<=delta<=5/6, 0<=x<=1/2 (401x401)",
+   "lhs": "0.000228291516188 at delta=0.3875, x=0.5",
+   "rel": ">=",
+   "rhs": "49/440640 = 1.112e-04",
+   "passed": true
+  },
+  {
+   "id": "A1",
+   "tex_line": 16101,
+   "claim": "1 - h/4 = 51/64",
+   "lhs": "51/64",
+   "rel": "==",
+   "rhs": "51/64",
+   "passed": true
+  },
+  {
+   "id": "Q1",
+   "tex_line": 16116,
+   "claim": "ell/h = 8/39",
+   "lhs": "8/39",
+   "rel": "==",
+   "rhs": "8/39",
+   "passed": true
+  },
+  {
+   "id": "Q2a",
+   "tex_line": 16116,
+   "claim": "8/39 > 1/5",
+   "lhs": "8/39",
+   "rel": ">",
+   "rhs": "1/5",
+   "passed": true
+  },
+  {
+   "id": "Q2b",
+   "tex_line": 16116,
+   "claim": "1/5 > 7/37",
+   "lhs": "1/5",
+   "rel": ">",
+   "rhs": "7/37",
+   "passed": true
+  },
+  {
+   "id": "Q3",
+   "tex_line": 16123,
+   "claim": "5 ell - h = 1/48",
+   "lhs": "1/48",
+   "rel": "==",
+   "rhs": "1/48",
+   "passed": true
+  },
+  {
+   "id": "Q4",
+   "tex_line": 16126,
+   "claim": "1/5 - 7/37 = 2/185",
+   "lhs": "2/185",
+   "rel": "==",
+   "rhs": "2/185",
+   "passed": true
+  },
+  {
+   "id": "Q5",
+   "tex_line": 16133,
+   "claim": "33/50 - delta/2 >= 4/25 at delta=1",
+   "lhs": "4/25",
+   "rel": "==",
+   "rhs": "4/25",
+   "passed": true
+  },
+  {
+   "id": "Q6",
+   "tex_line": 16139,
+   "claim": "R_* <= 1-delta+(alpha-delta)/2 <= 17/12 (max at delta=0)",
+   "lhs": "17/12",
+   "rel": "==",
+   "rhs": "17/12",
+   "passed": true
+  },
+  {
+   "id": "Q7",
+   "tex_line": 16141,
+   "claim": "17/12 + Delta/4 <= 139/96 (Delta<=1/24); exact max is 137/96 (bound has slack)",
+   "lhs": "137/96",
+   "rel": "<=",
+   "rhs": "139/96",
+   "passed": true
+  },
+  {
+   "id": "Q8",
+   "tex_line": 16143,
+   "claim": "139/96 + 1/2 - 17/50 < 2",
+   "lhs": "3859/2400",
+   "rel": "<",
+   "rhs": "2",
+   "passed": true
+  },
+  {
+   "id": "Q9",
+   "tex_line": 16271,
+   "claim": "8/39 - 7/37 = 23/1443",
+   "lhs": "23/1443",
+   "rel": "==",
+   "rhs": "23/1443",
+   "passed": true
+  },
+  {
+   "id": "I1",
+   "tex_line": 16159,
+   "claim": "E(1/2) = -529/2400 + 25/96 delta",
+   "lhs": "0",
+   "rel": "==",
+   "rhs": "0",
+   "passed": true
+  },
+  {
+   "id": "I2",
+   "tex_line": 16160,
+   "claim": "-529/2400 + 25/96*(5/6) = -49/14400",
+   "lhs": "-49/14400",
+   "rel": "==",
+   "rhs": "-49/14400",
+   "passed": true
+  },
+  {
+   "id": "I3",
+   "tex_line": 16153,
+   "claim": "76/75 - 2/3*(1/50) = 1",
+   "lhs": "1",
+   "rel": "==",
+   "rhs": "1",
+   "passed": true
+  },
+  {
+   "id": "I4",
+   "tex_line": 16154,
+   "claim": "slope R+delta/2-17/50 = 101/150 - delta/6",
+   "lhs": "101/150 - delta/6",
+   "rel": "==",
+   "rhs": "101/150 - delta/6",
+   "passed": true
+  },
+  {
+   "id": "R1",
+   "tex_line": 5196,
+   "claim": "R(1/50) = 1 (floor consistency)",
+   "lhs": "1",
+   "rel": "==",
+   "rhs": "1",
+   "passed": true
+  },
+  {
+   "id": "R2",
+   "tex_line": 5196,
+   "claim": "crossover 1-d/2 = 4/3-d at d=2/3",
+   "lhs": "2/3",
+   "rel": "==",
+   "rhs": "2/3",
+   "passed": true
+  },
+  {
+   "id": "T1",
+   "tex_line": 6774,
+   "claim": "L(1,chi_{-3}) = pi/(3 sqrt 3) > 0",
+   "lhs": "0.60459978807807261686",
+   "rel": "==",
+   "rhs": "0.60459978807807261686",
+   "passed": true
+  },
+  {
+   "id": "T2",
+   "tex_line": 0,
+   "claim": "Mathlib riemannZeta 1 = (gamma - log 4pi)/2 is nonzero",
+   "lhs": "-0.976904291033879",
+   "rel": "!=",
+   "rhs": "0",
+   "passed": true
+  },
+  {
+   "id": "D1",
+   "tex_line": 0,
+   "claim": "Davenport-Heilbronn function (functional equation, no Euler product) has a zero with 1/2<Re<1",
+   "lhs": "(0.808517182457 + 85.6993484854j)",
+   "rel": "Re in (1/2,1)",
+   "rhs": "|f(rho)|=6.65e-26",
+   "passed": true
+  }
+ ],
+ "min_negE": [
+  "0.0002282915161883038712538808",
+  "0.3875",
+  "0.5"
+ ],
+ "dh_zero": "(0.808517182456637385553352 + 85.69934848537759217192927j)"
+}
